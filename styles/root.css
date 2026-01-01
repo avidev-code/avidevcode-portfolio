@@ -1,0 +1,24 @@
+:root {
+  /*Colores*/
+  --text-input-field: #f7f7f7;
+  --platzi-green: #0AE98A;
+  --platzi-blue: #0CA5D8;
+  --grey-text: #87909D;
+  --button-text: #14161C;
+  --bg: #13161C;
+  --white: #ffffff;
+  --black: #000000;
+  --toggle-border: #2D323B;
+  --card-border-1: #525A66;
+  --card-border-2: #354050;
+  --shadow: rgba(0, 0, 0, 0.25);
+  --pill-gradient: linear-gradient(90deg, #16E293 0%, #759FD4 50%, #B573FF 100%);
+  --hover-gradient: linear-gradient(90deg, #0AE98A 0%, #0CA5D8 100%);
+
+  /* Tamaños de fuente */
+  --sm: 8px;
+  --rg: 16px;
+  --md: 24px;
+  --lg: 32px;
+  --xl: 40px;
+}
