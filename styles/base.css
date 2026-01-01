@@ -9,6 +9,10 @@
 @font-face {
     font-family: 'Roobert';
     src: url('../assets/fonts/Roobert-Font/01-Roobert-Light-TRIAL.otf') format('truetype');
+    src: url('../assets/fonts/Roobert-Font/02-Roobert-Regular-TRIAL.otf') format('truetype');
+    src: url('../assets/fonts/Roobert-Font/03-Roobert-Medium-TRIAL.otf') format('truetype');
+    src: url('../assets/fonts/Roobert-Font/04-Roobert-SemiBold-TRIAL.otf') format('truetype');
+    src: url('../assets/fonts/Roobert-Font/05-Roobert-Bold-TRIAL.otf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
