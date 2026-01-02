@@ -1,0 +1,76 @@
+@import url('../assets/fonts/Roobert-Font/');
+
+.project-card {
+  width: 300px;
+  background-color: var(--card-bg);
+  border-radius: 24px;
+  padding: 24px;
+}
+
+.card-description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.card-description p {
+  font-size: 14px;
+  color: var(--grey-text);
+  letter-spacing: 0.6px;
+  line-height: 20px;
+}
+.card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.card-title h3 {
+  font-size: 18px;
+  color: white;
+  letter-spacing: 0.8px;
+}
+.card-title span {
+  background: var(--pill-gradient);
+  color: var(--button-text);
+  padding: 8px 12px;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-content {
+  margin: 24px 0 24px;
+}
+.card-content .card-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.card-pills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.card-pills span {
+  border-radius: 100px;
+  border: 1px solid var(--toggle-border);
+  padding: 8px 16px;
+}
+
+.card-cta {
+  height: 44px;
+  display: flex;
+  flex-direction: row;
+}
+.card-focused {
+  border: 0.4px solid var(--card-border-1);
+  box-shadow: 0px 0px 32px rgba(10, 233, 138, 0.2);
+}

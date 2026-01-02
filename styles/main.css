@@ -38,7 +38,6 @@ header {
 .hero-title {
   display: flex;
   flex-direction: column;
-  gap: var(--sm);
 }
 .hero-title h2 {
   font-size: var(--lg);
@@ -54,13 +53,19 @@ header {
   line-height: 32px;
   letter-spacing: 0.6px;
   max-width: 305px;
+  background: var(--hover-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.hero-title p {
+.hero-title span {
   font-size: 20px;
   font-family: 'Roobert', sans-serif;
-  font-weight: bold;
+  font-weight: 400;
   line-height: 32px;
   letter-spacing: 0.25px;
+  background: var(--hover-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hero-buttons {
@@ -99,4 +104,92 @@ header {
 .hero-buttons .btn-secondary:hover {
   background: var(--hover-gradient);
   color: var(--button-text);
+}
+
+/* Projects Section */
+.wrapper-cards {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+
+.projects {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg);
+}
+.projects-info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 24px;
+  margin: 24px;
+  text-align: center;
+}
+.projects-info p {
+  font-size: 16px;
+  font-family: 'Roobert', sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.25px;
+}
+.projects-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.projects-title h2 {
+  font-size: var(--md);
+  font-family: 'Roobert', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.4px;
+  /*Adding gradient to a title*/
+  background: var(--hover-gradient);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.project-togle {
+  width: 288px;
+  height: 64px;
+  margin: 0 auto;
+  padding: 8px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--toggle-bg);
+  border: 1px solid var(--toggle-border);
+  border-radius: 100px;
+}
+.project-togle .ui-projects {
+  width: 48px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.code-projects {
+  width: 90%;
+  height: 48px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--toggle-bg-darker);
+  font-size: var(--rg);
+  font-family: 'Roobert', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  color: var(--platzi-green);
 }
