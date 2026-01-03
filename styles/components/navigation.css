@@ -1,0 +1,31 @@
+/*NAVIGATION*/
+header {
+  width: 100%;
+  height: 68px;
+  padding: 0 48px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: var(--bg);
+}
+.nav-container {
+  height: 68px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  height: 48px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.nav-links li {
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+.nav-links li a {
+  padding: 0 16px;
+}
