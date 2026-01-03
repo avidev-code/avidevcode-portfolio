@@ -10,9 +10,10 @@ main {
   min-height: 100vh;
 }
 
+/*NAVIGATION*/
 header {
   width: 100%;
-  height: 56px;
+  height: 60px;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -20,11 +21,34 @@ header {
   /*backdrop-filter: blur(10px); Efecto de desenfoque muy moderno */
 }
 .nav-container {
+  height: 60px;
+  padding: 0 24px;
   display: flex;
   justify-content: space-between;
-  margin: 24px 16px;
   align-items: center;
 }
+.nav-logo a {
+  width: 160px;
+  height: 32px;
+}
+.nav-links ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+.nav-links ul a {
+  padding: 16px 8px;
+}
+.nav-links ul a li {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+.nav-icon {
+  display: none;
+}
+
 
 .hero-container {
   width: 100%;
@@ -233,4 +257,14 @@ footer {
   font-weight: bold;
   letter-spacing: 0.6px;
   color: var(--grey-text);
+}
+
+/*Media Queries*/
+@media (max-width: 765px) {
+  .nav-icon {
+    display: block;
+  }
+  .nav-links {
+  display: none;
+  }
 }
