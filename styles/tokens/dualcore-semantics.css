@@ -1,0 +1,32 @@
+
+@import '../tokens/dualcore-global-clrs.css';
+@import '../base/dualcore-reset.css';
+
+:root {
+
+  /* Semantics Tokens */
+  /*Primary Colors*/
+  --dc-pri-clr: var(--dc-core-green-500);
+  --dc-pri-clr_l: var(--dc-core-green-100);
+
+  /*Secondary Colors*/
+  --dc-sec-clr: var(--dc-logic-blue-500);
+  --dc-sec-clr_l: var(--dc-logic-blue-100);
+
+  /*Tertiary Colors*/
+  --dc-ter-clr: var(--dc-fusion-purple-500);
+  --dc-ter-clr_l: var(--dc-fusion-purple-100);
+
+  /*Fourth colors*/
+  --dc-fth-clr: var(--dc-ether-blue-500);
+  --dc-fth-clr_l: var(--dc-ether-blue-100);
+
+  /*Error clrs*/
+  --dc-clr-error: var(--dc-error-critical-red-500);
+  --dc-clr-error_l: var(--dc-error-critical-red-100);
+
+  /*Background and Surface colors*/
+  --dc-bg-srf: var(--dc-deep-logic-500);
+  --dc-bg_dark: var(--dc-deep-logic-950);
+  
+}

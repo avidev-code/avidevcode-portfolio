@@ -1,0 +1,131 @@
+:root {
+
+  /*Global Colors*/
+
+  /*Core Green*/
+  --dc-core-green-50: #e8ffef;
+  --dc-core-green-100: #cfffdf;
+  --dc-core-green-200: #a0ffc4;
+  --dc-core-green-300: #26ff9a;
+  --dc-core-green-400: #0bf692;
+  --dc-core-green-500: #0ae98a;
+  --dc-core-green-600: #06b86c;
+  --dc-core-green-700: #03864d;
+  --dc-core-green-800: #015a32;
+  --dc-core-green-900: #002f18;
+  --dc-core-green-950: #001d0c;
+
+  /*Logic Blue*/
+  --dc-logic-blue-50: #edf0fe;
+  --dc-logic-blue-100: #dae2fd;
+  --dc-logic-blue-200: #b4c5fb;
+  --dc-logic-blue-300: #90acfa;
+  --dc-logic-blue-400: #6190f8;
+  --dc-logic-blue-500: #2776ec;
+  --dc-logic-blue-600: #1d5dbd;
+  --dc-logic-blue-700: #144692;
+  --dc-logic-blue-800: #0a2e65;
+  --dc-logic-blue-900: #041a3e;
+  --dc-logic-blue-950: #02102b;
+
+  /*Ether Blue*/
+  --dc-ether-blue-50: #f1fbff;
+  --dc-ether-blue-100: #e3f7ff;
+  --dc-ether-blue-200: #c3efff;
+  --dc-ether-blue-300: #9fe8ff;
+  --dc-ether-blue-400: #6ee0ff;
+  --dc-ether-blue-500: #00daff;
+  --dc-ether-blue-600: #00aac7;
+  --dc-ether-blue-700: #007d93;
+  --dc-ether-blue-800: #005363;
+  --dc-ether-blue-900: #002c36;
+  --dc-ether-blue-950: #001b21;
+
+  /*Fusion Purple*/
+  --dc-fusion-purple-50: #f6f1ff;
+  --dc-fusion-purple-100: #eee4ff;
+  --dc-fusion-purple-200: #ddc8ff;
+  --dc-fusion-purple-300: #d0b0ff;
+  --dc-fusion-purple-400: #c292ff;
+  --dc-fusion-purple-500: #b573ff;
+  --dc-fusion-purple-600: #a434ff;
+  --dc-fusion-purple-700: #8300d3;
+  --dc-fusion-purple-800: #580090;
+  --dc-fusion-purple-900: #330057;
+  --dc-fusion-purple-950: #22003c;
+
+  /*Core Neutral*/
+  --dc-core-neutral-50: #f3f4f5;
+  --dc-core-neutral-100: #e6e8ec;
+  --dc-core-neutral-200: #ced2d9;
+  --dc-core-neutral-300: #b5bcc6;
+  --dc-core-neutral-400: #9da7b4;
+  --dc-core-neutral-500: #87909d;
+  --dc-core-neutral-600: #6b737d;
+  --dc-core-neutral-700: #50555d;
+  --dc-core-neutral-800: #35393f;
+  --dc-core-neutral-900: #1d2024;
+  --dc-core-neutral-950: #121316;
+
+  /*Deep Logic*/
+  --dc-deep-logic-50: #e3e5eb;
+  --dc-deep-logic-100: #c4c9d6;
+  --dc-deep-logic-200: #8d99b2;
+  --dc-deep-logic-300: #5f687c;
+  --dc-deep-logic-400: #373e4a;
+  --dc-deep-logic-500: #13161c;
+  --dc-deep-logic-600: #111319;
+  --dc-deep-logic-700: #0c0e13;
+  --dc-deep-logic-800: #090b0f;
+  --dc-deep-logic-900: #030405;
+  --dc-deep-logic-950: #030405;
+
+  /*Warn Amber*/
+  --dc-warn-amber-50: #fff8f0;
+  --dc-warn-amber-100: #fff2e0;
+  --dc-warn-amber-200: #ffe4be;
+  --dc-warn-amber-300: #ffd488;
+  --dc-warn-amber-400: #ffc63f;
+  --dc-warn-amber-500: #f5bb00;
+  --dc-warn-amber-600: #c09200;
+  --dc-warn-amber-700: #8d6a00;
+  --dc-warn-amber-800: #604800;
+  --dc-warn-amber-900: #342600;
+  --dc-warn-amber-950: #201600;
+
+  /*Boost Flame*/
+  --dc-boost-flame-50: #fff0ef;
+  --dc-boost-flame-100: #ffe2df;
+  --dc-boost-flame-200: #ffbfb9;
+  --dc-boost-flame-300: #ff9f94;
+  --dc-boost-flame-400: #ff7c67;
+  --dc-boost-flame-500: #ff4e00;
+  --dc-boost-flame-600: #cb3c00;
+  --dc-boost-flame-700: #992b00;
+  --dc-boost-flame-800: #691b00;
+  --dc-boost-flame-900: #410d00;
+  --dc-boost-flame-950: #2c0600;
+
+  /*Error Critical Red*/
+  --dc-error-critical-red-50: #ffecee;
+  --dc-error-critical-red-100: #fedadc;
+  --dc-error-critical-red-200: #feb3b9;
+  --dc-error-critical-red-300: #fe8893;
+  --dc-error-critical-red-400: #fe5369;
+  --dc-error-critical-red-500: #ec0b43;
+  --dc-error-critical-red-600: #bd0734;
+  --dc-error-critical-red-700: #910426;
+  --dc-error-critical-red-800: #670218;
+  --dc-error-critical-red-900: #40010b;
+  --dc-error-critical-red-950: #2c0006;
+
+  /*Gradients*/
+  --dc-gradient-execute: linear-gradient(45deg, #0ae98a 0%, #1d5dbd 100%);
+  --dc-gradient-synth: linear-gradient(45deg, #0ae98a 0%, #b573ff 100%);
+  --dc-gradient-vision: linear-gradient(45deg, #1d5dbd 0%, #b573ff 100%);
+  --dc-gradient-vision: linear-gradient(90deg, #0ae98a 0%, #1d5dbd 50%, #b573ff 100%);
+
+  /*Text colors*/
+  --dc-txt_core: var(--dc-core-green-500);
+  --dc-txt_logic: var(--dc-logic-blue-500);
+}

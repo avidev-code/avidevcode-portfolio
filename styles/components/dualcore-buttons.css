@@ -1,0 +1,62 @@
+
+@import '../base/dualcore-reset.css';
+@import '../tokens/dualcore-global-colors.css';
+@import '../tokens/dualcore-semantics.css';
+@import '../tokens/dualcore-spacing-radius.css';
+
+/* Estructura Base */
+.dc-btn {
+    width: 220px;
+    height: var(--dc-btn__h-md);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--dc-br-sm);
+    font-size: var(--dc-fs-md);
+    letter-spacing: 0.6px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-family: inherit;
+    transition: all 0.1s ease-in-out;
+}
+
+/* Primary varient (Using Core Green) */
+.dc-btn__pri-core {
+    background-color: var(--dc-pri-clr);
+    color: var(--dc-bg-srf);
+}
+.dc-btn__sec-core {
+    background-color: var(--dc-bg-srf);
+    color: var(--dc-pri-clr);
+    border: 1px solid var(--dc-pri-clr);
+}
+
+/* Secondary varient (Using Logic Blue) */
+.dc-btn__pri-logic {
+    background-color: var(--dc-sec-clr);
+    color: var(--dc-bg-srf);
+}
+.dc-btn__sec-logic {
+    background-color: var(--dc-bg-srf); /* Definido en tu semantics.css */
+    color: var(--dc-sec-clr);
+    border: 1px solid var(--dc-sec-clr);
+}
+
+/* Primary core Hover Effects */
+.dc-btn__pri-core:hover {
+    background: linear-gradient(90deg, var(--dc-pri-clr), var(--dc-sec-clr));
+    box-shadow: 0 0 16px var(--dc-core-green-300);
+}
+.dc-btn__sec-core:hover {
+    border-width: 1px 1px 4px 4px;
+}
+    
+/* Secondary logic Hover Effects */
+.dc-btn__pri-logic:hover {
+    background: linear-gradient(90deg, var(--dc-sec-clr), var(--dc-ter-clr));
+    box-shadow: 0 0 16px var(--dc-logic-blue-400);
+}
+.dc-btn__sec-logic:hover {
+    border-width: 1px 1px 4px 4px;
+}

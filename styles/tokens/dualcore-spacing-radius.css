@@ -1,0 +1,44 @@
+
+@import './base/dualcore-reset.css';
+
+:root {
+
+  /*Spacing Tokens*/
+  --dc-space-xs: 0.4rem;
+  --dc-space-sm: 0.8rem;
+  --dc-space-sm2: 1.4rem;
+  --dc-space-md: 1.6rem;
+  --dc-space-lg: 2.4rem;
+  --dc-space-xl: 3.2rem;
+  --dc-space-2xl: 4.8rem;
+  --dc-space-3xl: 6.4rem;
+  --dc-space-4xl: 9.6rem;
+  --dc-space-5xl: 12.8rem;
+  --dc-space-6xl: 19.2rem;
+
+  /*fs size*/
+  --dc-fs-xs: 0.4rem;
+  --dc-fs-capt: 0.8rem;
+  --dc-fs-sm: 1.4rem;
+  --dc-fs-md: 1.6rem;
+  --dc-fs-lg: 2.4rem;
+  --dc-fs-xl: 3.2rem;
+  --dc-fs-d1: 4.8rem;
+  --dc-fs-d2: 6.4rem;
+  --dc-fs-d3: 9.6rem;
+  --dc-fs-d4: 12.8rem;
+  --dc-fs-d5: 19.2rem;
+
+  /*Border Radious*/
+  --dc-br-xs: 0.4rem;
+  --dc-br-sm: 0.8rem;
+  --dc-br-md: 1.6rem;
+  --dc-br-lg: 2.4rem;
+  --dc-br-xl: 3.2rem;
+  --dc-br-full: 9999rem;
+
+  /*Button h sizes*/
+  --dc-btn__h-sm: 3.2rem;
+  --dc-btn__h-md: 4.8rem;
+  --dc-btn__h-lg: 6.4rem;
+}
