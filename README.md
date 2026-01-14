@@ -1,4 +1,4 @@
-# <img width="32px" src="./assets/icons/01-core-favicon.svg"/> Avidevcode  - JD Albarran
+# <img width="24px" src="./assets/icons/01-core-favicon.svg"/> Avidevcode  - JD Albarran
 
 Este repositorio contine los archivos y estilos de mi portadolio personal. Aquí he adoptado un pequeño sistema de diseño que he creado para uso personal. Espero que esto de a poco vaya creciendo. 
 Este pequeño sistema de diseño lo he llamado:
