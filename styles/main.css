@@ -1,3 +1,21 @@
+
+/* 1. CONFIGURACIÓN (Tokens)
+   Primero cargamos las variables para que estén disponibles para todo lo demás */
+@import "../styles/base/dualcore-reset.css";
+@import "../styles/tokens/dualcore-global-colors.css";
+@import "../styles/tokens/dualcore-semantics.css";
+
+/* 2. BASE 
+   Estilos globales que resetean el navegador y definen la tipografía */
+@import "../styles/tokens/dualcore-spacing-radius.css";
+/*@import "../styles/base/dualcore-typography.css";*/
+
+/* 3. COMPONENTES 
+   Piezas de UI construidas con los tokens y la base anterior */
+@import "../styles/components/dualcore-buttons.css";
+@import "../styles/components/dualcore-navigation.css";
+
+
 /*@import url('./main.css');
 @import url('./root.css');
 @import url('./base.css');
